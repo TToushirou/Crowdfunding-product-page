@@ -14,20 +14,32 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-color: black;
 }
 
-.nav-container-navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+.navbar {
+  background-color: transparent !important;
 }
 
-.nav-container-nav-brand {
-  float: left;
-  padding: 25px 20px 10px 20px;
+.nav-item {
+  list-style: none;
+}
+
+.navbar-links {
+  padding: 0px;
+  margin-top: 25px;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-link {
+  padding-top: 15px;
+  padding-left: 22px;
+  color: black;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
