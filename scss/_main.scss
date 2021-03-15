@@ -1,0 +1,131 @@
+.project {
+    margin: 0px 25px 0px 25px;
+    padding-bottom: 25px;
+    background-color: white;
+    border-radius: 10px;
+    &-info-container{
+        &-logo svg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &-text{
+            text-align: center;
+            font-family: $primaryfont;
+            h1 {
+                font-weight: bold;
+                font-size: 22px;
+                padding: 0px 20px 0px 20px;
+                margin-bottom: 20px;
+            }
+            p {
+                color: $darkGrey;
+                font-size: 15px;
+                height: 36px;
+                margin-bottom: 30px;
+                padding: 5px;
+            }
+        }
+        &-btns{
+            display: grid;
+            grid-template-columns: 216px 1fr;
+            padding: 5px;
+            
+            &-btn1 button {
+                font-weight: bold;
+                font-size: 14px;
+                color: $white;
+                background-color: $moderateCyan; 
+                border-radius: 28px;
+                border: none;
+                padding: 17.5px 48px 17.5px 48px;
+            }
+            &-btn2 button{
+                border: none;
+            }
+        }
+    }
+}
+
+.col-md-12 {
+    bottom: 25px;
+}
+
+
+.data {
+    margin: 25px 25px 20px 25px;
+    bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    &-data-container{
+        padding: 20px 0px 20px 0px;
+        &-text{
+            text-align: center;
+            font-family: $primaryfont;
+            h1 {
+                font-weight: bold;
+                font-size: 35px;
+            }
+            p {
+                color: $darkGrey;
+                font-size: 15px;
+            }
+        }
+    }
+}
+.progress {
+    background-color: #cad6e2 !important;
+    margin: 0px 20px 0px 20px;
+}
+.progress-bar {
+    background-color: $darkCyan !important;
+}
+
+
+.about {
+    margin: 50px 25px 25px 25px;
+    align-content: center;
+
+
+    &-text{
+        font-family: $primaryfont;
+        h1 {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 14px;
+            padding-right: 45px;
+        }
+    }
+}
+
+.products {
+    margin: 20px;
+    border: solid 1px $darkGrey;
+    border-radius: 10px;
+
+    &-container{
+
+        &-item1{
+
+            &-header{
+
+            }
+
+            &-info{
+
+            }
+
+            &-stock{
+
+            }
+
+            &-btn{
+
+            }
+
+        }
+    }
+}

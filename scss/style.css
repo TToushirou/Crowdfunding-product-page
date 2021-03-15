@@ -14,8 +14,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: black;
+  overflow-x: hidden;
+  background-color: #e7e7e7;
 }
 
 .navbar {
@@ -30,16 +30,138 @@ body {
   padding: 0px;
   margin-top: 25px;
   width: 300px;
-  height: 150px;
+  height: 212px;
   background-color: white;
   border-radius: 10px;
 }
 
 .nav-link {
-  padding-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 20px;
   padding-left: 22px;
   color: black;
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
+}
+
+.project {
+  margin: 0px 25px 0px 25px;
+  padding-bottom: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.project-info-container-logo svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-info-container-text {
+  text-align: center;
+  font-family: "Commissioner", sans-serif;
+}
+
+.project-info-container-text h1 {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 20px;
+}
+
+.project-info-container-text p {
+  color: #7a7a7a;
+  font-size: 15px;
+  height: 36px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.project-info-container-btns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 216px 1fr;
+      grid-template-columns: 216px 1fr;
+  padding: 5px;
+}
+
+.project-info-container-btns-btn1 button {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3cb4ac;
+  border-radius: 28px;
+  border: none;
+  padding: 17.5px 48px 17.5px 48px;
+}
+
+.project-info-container-btns-btn2 button {
+  border: none;
+}
+
+.col-md-12 {
+  bottom: 25px;
+}
+
+.data {
+  margin: 25px 25px 20px 25px;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.data-data-container {
+  padding: 20px 0px 20px 0px;
+}
+
+.data-data-container-text {
+  text-align: center;
+  font-family: "Commissioner", sans-serif;
+}
+
+.data-data-container-text h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.data-data-container-text p {
+  color: #7a7a7a;
+  font-size: 15px;
+}
+
+.progress {
+  background-color: #cad6e2 !important;
+  margin: 0px 20px 0px 20px;
+}
+
+.progress-bar {
+  background-color: #147b74 !important;
+}
+
+.about {
+  margin: 50px 25px 25px 25px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.about-text {
+  font-family: "Commissioner", sans-serif;
+}
+
+.about-text h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.about-text p {
+  font-size: 14px;
+  padding-right: 45px;
+}
+
+.products {
+  margin: 20px;
+  border: solid 1px #7a7a7a;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
