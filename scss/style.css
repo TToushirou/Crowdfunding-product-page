@@ -1,12 +1,14 @@
 html {
   font-size: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -43,7 +45,6 @@ body {
 }
 
 .hero-banner {
-  background-image: url("../images/image-hero-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -81,8 +82,10 @@ body {
 }
 
 .project-info-container-btns {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 216px 1fr;
+  -ms-grid-columns: 216px 1fr;
+      grid-template-columns: 216px 1fr;
   padding: 5px;
 }
 
