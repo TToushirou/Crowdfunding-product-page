@@ -21,7 +21,6 @@
             p {
                 color: $darkGrey;
                 font-size: 15px;
-                height: 36px;
                 margin-bottom: 30px;
                 padding: 5px;
             }
@@ -30,7 +29,6 @@
             display: grid;
             grid-template-columns: 216px 1fr;
             padding: 5px;
-            
             &-btn1 button {
                 font-weight: bold;
                 font-size: 14px;
@@ -83,10 +81,7 @@
 
 
 .about {
-    margin: 50px 25px 25px 25px;
-    align-content: center;
-
-
+    margin: 50px 45px 40px 45px;
     &-text{
         font-family: $primaryfont;
         h1 {
@@ -95,37 +90,138 @@
             margin-bottom: 30px;
         }
         p {
-            font-size: 14px;
-            padding-right: 45px;
+            font-size: 14px;  
         }
     }
 }
 
 .products {
-    margin: 20px;
-    border: solid 1px $darkGrey;
-    border-radius: 10px;
-
+    margin: 45px;
     &-container{
-
         &-item1{
-
+            border: solid 1px $darkGrey;
+            border-radius: 10px;
+            font-family: $primaryfont;
+            padding: 15px;
+            margin-top: 10px;
             &-header{
-
+                h2 {
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                p {
+                    color: $moderateCyan;
+                }
             }
-
             &-info{
-
+                p {
+                    color: $darkGrey;
+                    margin: 25px 0px 15px 0px;
+                    font-size: 15px;
+                }
             }
-
             &-stock{
+                strong {
+                    font-size: 30px;
+                    color: $black;
+                }
 
+                p {
+                    color: $darkGrey;
+                }
             }
-
-            &-btn{
-
+            &-btn button {
+                font-weight: bold;
+                font-size: 14px;
+                color: $white;
+                background-color: $moderateCyan; 
+                border-radius: 28px;
+                border: none;
+                padding: 15px 40px 15px 40px;
             }
+        }
+        &-item2{
+            border: solid 1px $darkGrey;
+            border-radius: 10px;
+            font-family: $primaryfont;
+            padding: 15px;
+            margin-top: 30px;
+            &-header{
+                h2 {
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                p {
+                    color: $moderateCyan;
+                }
+            }
+            &-info{
+                p {
+                    color: $darkGrey;
+                    margin: 25px 0px 15px 0px;
+                    font-size: 15px;
+                }
+            }
+            &-stock{
+                strong {
+                    font-size: 30px;
+                    color: $black;
+                }
 
+                p {
+                    color: $darkGrey;
+                }
+            }
+            &-btn button {
+                font-weight: bold;
+                font-size: 14px;
+                color: $white;
+                background-color: $moderateCyan; 
+                border-radius: 28px;
+                border: none;
+                padding: 15px 40px 15px 40px;
+            }
+        }
+        &-item3{
+            opacity: .5;
+            font-family: $primaryfont;
+            padding: 15px;
+            margin-top: 30px;
+            &-header{
+                h2 {
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                p {
+                    color: $moderateCyan;
+                }
+            }
+            &-info{
+                p {
+                    color: $darkGrey;
+                    margin: 25px 0px 15px 0px;
+                    font-size: 15px;
+                }
+            }
+            &-stock{
+                strong {
+                    font-size: 30px;
+                    color: $black;
+                }
+
+                p {
+                    color: $darkGrey;
+                }
+            }
+            &-btn button {
+                font-weight: bold;
+                font-size: 14px;
+                color: $white;
+                background-color: $darkGrey; 
+                border-radius: 28px;
+                border: none;
+                padding: 15px 40px 15px 40px;
+            }
         }
     }
 }
