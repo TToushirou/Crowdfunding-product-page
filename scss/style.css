@@ -1,14 +1,12 @@
 html {
   font-size: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -44,6 +42,12 @@ body {
   font-weight: 500;
 }
 
+.hero-banner {
+  background-image: url("../images/image-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .project {
   margin: 0px 25px 0px 25px;
   padding-bottom: 25px;
@@ -77,10 +81,8 @@ body {
 }
 
 .project-info-container-btns {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 216px 1fr;
-      grid-template-columns: 216px 1fr;
+  grid-template-columns: 216px 1fr;
   padding: 5px;
 }
 
